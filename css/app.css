@@ -147,7 +147,14 @@ ul:first-child{
 #button-small{
    font-size: 10px;
 }
-
+.social{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.size-icon{
+    color: white;
+}
 
 
 /* debug  */
