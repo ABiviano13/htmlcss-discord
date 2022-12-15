@@ -17,7 +17,9 @@ ul li{
 img{
     max-width: 100%;
 }
-
+body{
+    font-family: 'Raleway', sans-serif;
+}
 .container-small{
     max-width: 700px;
     margin: 0 auto;
