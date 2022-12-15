@@ -14,12 +14,17 @@ ul li{
     list-style-type: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 .container-small{
     max-width: 700px;
     margin: 0 auto;
 }
 .row{
     display: flex;
+
 }
 .page-content{
     background-color: #23272a;
@@ -75,6 +80,19 @@ ul li{
     background-color: black;
     color: white;
     border: 1px solid black;
+}
+.text-section{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.text-section > .title-description{
+    font-size: 35px;
+    line-height: 40px;
+}
+.text-section > .text-description{
+    font-size: 15px;
+    line-height: 25px;
 }
 .col-16{
     flex-basis: calc(100%/6);
