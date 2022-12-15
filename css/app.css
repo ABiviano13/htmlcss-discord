@@ -108,6 +108,7 @@ img{
 }
 .col-100{
     flex-basis: 100%;
+    text-align: center;
 }
 .bg-gray{
     background-color: lightgray;
